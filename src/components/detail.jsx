@@ -15,7 +15,7 @@ export const DETAIL = () => {
               <br />
               & Trade Unique
               <br />
-              Digital Art.
+              Digital Art./hello block
             </h1>
           </div>
           <p className="text-lg max-w-md">
