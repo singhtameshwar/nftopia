@@ -49,7 +49,7 @@ export const CARDS = () => {
 
   return (
     <div className="container mx-auto">
-      <div className="min-h-screen bg-[#13111C] text-white p-6">
+      <div className="bg-[#13111C] text-white p-6">
         <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-purple-600/20 rounded-full blur-3xl"></div>
 
         <div className="max-w-7xl mx-auto relative">

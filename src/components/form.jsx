@@ -1,7 +1,7 @@
 export const FORM = () => {
   return (
     <div className="container mx-auto">
-      <div className="min-h-screen bg-black text-white p-8 flex items-center justify-center">
+      <div className=" bg-black text-white p-8 flex items-center justify-center">
         <div className="max-w-full mx-auto relative">
           <div
             className="absolute bottom-0 left-0 w-[80%] max-w-[400px] h-[400px] md:w-[600px] md:h-[600px] rounded-full blur-3xl -z-10"

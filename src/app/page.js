@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Navbar } from "@/components/navbar";
-import {Details} from "@/components/detail";
+import {DETAIL} from "@/components/detail";
 import {NFT}from "@/components/nft";
 import {MARQUE}from "@/components/logo";
 import {CARDS}from "@/components/card";
@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Navbar/>
-      <Details/>
+      <DETAIL/>
       <MARQUE/>
       <NFT/>
       <CARDS/>
