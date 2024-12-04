@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const DETAIL = () => {
   return (
-    <div className="container mx-auto text-white bg-gradient-to-b from-black to-purple-900 p-4">
+    <div className="container mx-auto px-4 text-white bg-gradient-to-b from-black to-purple-900 p-4">
       <div className="inline-flex items-center gap-2 mb-4 bg-[#1E1B2E] px-3 py-1.5 rounded-full">
         <div className="w-1.5 h-1.5 bg-purple-500 rounded-full" />
         <span className="text-gray-300 text-sm">Our Collection</span>
@@ -124,7 +124,7 @@ export const DETAIL = () => {
                     <span className="text-2xl font-bold">300.00</span>
                   </div>
                 </div>
-                <button className="btn border rounded-2xl mb-2">Buy Now</button>
+                <button className="btn border rounded-2xl">Buy Now</button>
               </div>
             </div>
           </div>

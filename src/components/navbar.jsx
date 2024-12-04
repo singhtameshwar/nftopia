@@ -1,14 +1,14 @@
 export const Navbar = () => {
   return (
     <div className="container mx-auto">
-      <div className="navbar bg-gradient-to-b from-black to-purple-900 px-6 md:px-10">
+      <div className="navbar bg-gradient-to-b from-black to-purple-900 px-4 md:px-10">
         <div className="navbar-start text-white">
-          <a className="btn btn-ghost text-xl">
-            <img src="/images/icon.png" className="inline-block mr-2" />
+          <a className="btn btn-ghost text-xl flex items-center">
+            <img src="/images/icon.png" className="w-6 h-6 mr-2" alt="Logo" />
             NFTopia
           </a>
         </div>
-        <div className="navbar-center text-white lg:hidden">
+        <div className="navbar-center lg:hidden text-white">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost">
               <svg
@@ -48,7 +48,7 @@ export const Navbar = () => {
             </ul>
           </div>
         </div>
-        <div className="navbar-center text-white hidden lg:flex">
+        <div className="navbar-center hidden lg:flex text-white">
           <ul className="menu menu-horizontal px-1">
             <li>
               <a>Home</a>
@@ -67,7 +67,6 @@ export const Navbar = () => {
             </li>
           </ul>
         </div>
-
         <div className="navbar-end space-x-2">
           <a className="btn rounded-full">Login</a>
           <a className="btn rounded-full">Registration</a>
